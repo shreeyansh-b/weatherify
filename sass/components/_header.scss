@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 3.5rem;
+    align-items: center;
+}
+
+.navigation{
+    &__icon{
+        height: 2.5rem;
+        width: 2.5rem;
+        &:not(:last-child){
+            margin-right: 2rem;
+        }
+        fill: #fff;
+    }
+}
